@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   return (
-    <h1>React Base</h1>  
+    <h1>React Base</h1>
   );
 }
 
