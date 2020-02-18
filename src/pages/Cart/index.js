@@ -19,7 +19,7 @@ export default function Cart() {
         <tbody>
           <tr>
             <td>
-              <img src="https://static.netshoes.com.br/produtos/tenis-de-caminhada-leve-confortavel/06/E74-0492-006/E74-0492-006_zoom1.jpg" alt="tenis"/>
+              <img src="https://static.netshoes.com.br/produtos/tenis-de-caminhada-leve-confortavel/06/E74-0492-006/E74-0492-006_zoom1.jpg" alt="tenis" />
             </td>
             <td>
               <strong>Tênis bacana</strong>

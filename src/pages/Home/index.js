@@ -10,10 +10,10 @@ export default class Home extends Component {
     products: [],
   };
 
-  async componentDidMount () {
+  async componentDidMount() {
     const response = await api.get('products');
 
-    const data = response.data.map(product => ({
+    const data = response.data.map((product) => ({
       ...product,
       priceFormatted: formatPrice(product.price),
     }));
@@ -25,7 +25,7 @@ export default class Home extends Component {
     const { products } = this.state;
     return (
       <ProductList>
-        { products.map(product => (
+        { products.map((product) => (
           <li key={product.id}>
             <img src={product.image} alt={product.title} />
             <strong>{product.title}</strong>
